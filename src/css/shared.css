@@ -1,0 +1,35 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.hero {
+    position: fixed;
+    z-index: -1;
+    inset: 0;
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    background-image: url("../smile-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.9);
+    border-top: 3px solid purple;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+footer p{
+    font-size: 10px;
+}
+
+
